@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- HTML tags are the root tag or the top-most level tag of an HTML document. All other tags must be inside this HTML tag -->
+<html lang="en">
+  <!-- Head tags are HTML elements that contain machine readable information (metadata)  -->
+  <head>
+    <!-- meta charset tags are used to define the character encoding of the HTML document -->
+    <meta charset="UTF-8" />
+    <!-- http-equiv meta tags are used to define the version of internet explorer the web page should be rendered on  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport meta tags are used to define the width of the HTML document as well as the zoom level initially  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title tag is the html tag that defines the name shown in a browser's title bar or a page's tab -->
+    <title>This is the title</title>
+
+    <!-- Link tags  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style tags -->
+    <style>
+      p {
+        font-family: "Roboto";
+        background: color #fff;
+      }
+
+      span {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+
+  <!-- Body element represents the content of our HTML document. There can only be one body element inside our HTML document -->
+  <body>
+    <header>
+      <h1>Glass Onion: A Knives Out Mystery</h1>
+      <h2>2022 ‧ Mystery/Crime ‧ 2h 19m</h2>
+      <!-- The src attribute is required for an Image HTML Element. It contains the path to the image you want to embed. -->
+      <!-- The alt attribute holds a text description of the image. It is noit mandatory but is incredibly useful for accessibility  -->
+      <img
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8S3XYrydt_Ax3AfWczM7XEWagKnZ_tCm751zTmmssYESJMl8Ev9X1jmPFUK4KNH3usau5ZPvRaEbJH-bJG2GL19CrFusT4U_5mlwS5lWL-S1C4vy2LQVNxpj8fDGv1hvB7aI7rFWZV3M-K3FwoCDGqdzLMe3i8I7dzcVcIvYQhjSKN_hCGy1-Q-FuVQ/s630/2.jpg"
+      alt="The movie poster" height="600px"
+    </header>
+
+    <main>
+      <div>
+        <h3>Navigation</h3>
+        <ol>
+          <li><a href="#plot">plot</a></li>
+          <li><a href="#cast">cast</a></li>
+          <li><a href="#accolades">accolades</a></li>
+        </ol>
+      </div>
+      <div>
+        <h3 id="plot">plot</h3>
+        <p>
+          During the <b>COVID-19</b> pandemic in May 2020, Miles Bron, the
+          billionaire co-founder of technology company Alpha, hosts a murder
+          <strong>mystery</strong> game at the <i>Glass Onion</i>, his mansion
+          on a private island in Greece. <br />He invites five friends: Alpha
+          head scientist Lionel Toussaint, Connecticut governor Claire Debella,
+          controversial fashion designer and model Birdie Jay, men's rights
+          streamer Duke Cody, and ousted Alpha co-founder Cassandra "Andi"
+          Brand. The five <u>friends</u> are delivered a wooden puzzle box to
+          decipher to find the invitation inside. The five travel to Miles's
+          island, along with Birdie's assistant ,<s>Peg</s> and Duke's
+          girlfriend Whiskey.
+        </p>
+
+        <!-- Paragraph tag is a block element -->
+        <p>
+          Before dinner, Miles shows off his valuable glass sculptures, as well
+          as the Mona Lisa, which he has on loan from the Louvre.
+        </p>
+
+        <!-- span tag is an inline element -->
+        <span>
+          Miles also reveals that the mansion is powered by "Klear", a
+          hydrogen-based alternative fuel that Alpha will launch imminently,
+          despite Lionel and Claire's concerns that it is untested and
+          dangerous.
+        </span>
+      </div>
+
+      <hr />
+
+      <div>
+        <h3 id="cast">cast</h3>
+        <ul>
+          <li>
+            <a href="https://www.imdb.com/name/nm0185819/">Daniel Craig </a>as
+            Benoit Blanc, a private investigator
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm0001570/">Edward Norton</a> as
+            Miles Bron
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm1847117/">Janelle Monáe</a> as
+            Helen and Andi Brand, twin sisters, with the latter being Miles's
+            ex-business partner
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm1063517/">Kathryn Hahn</a> as
+            Claire Debella, the governor of Connecticut, now running for the
+            senate
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm1502434/">Leslie Odom Jr.</a>
+            as Lionel Toussaint, the head scientist for Miles's company
+          </li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <div>
+        <h3 id="accolades">accolades</h3>
+        <table border="1" bgcolor="yellow">
+          <thead>
+            <tr>
+              <th>Award</th>
+              <th>Date of ceremony</th>
+              <th>Ceremony</th>
+              <th>Recipients</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>African-American Film Critics Association Awards</td>
+              <td>March 1, 2023</td>
+              <td>Top 10 Films of the Year</td>
+              <td>Glass Onion: A Knives Out Mystery</td>
+              <td>5th place</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Chicago Film Critics Association Awards</td>
+              <td rowspan="3">December 14, 2022</td>
+              <td>Best Supporting Actress</td>
+              <td>Janelle Monáe</td>
+              <td>Nominated</td>
+            </tr>
+            <tr>
+              <td>Best Adapted Screenplay</td>
+              <td>Rian Johnson</td>
+              <td>Nominated</td>
+            </tr>
+            <tr>
+              <td>Best Art Direction/Production Design</td>
+              <td>Glass Onion: A Knives Out Mystery</td>
+              <td>Nominated</td>
+            </tr>
+            <tr>
+              <td>New York Film Critics Online Awards</td>
+              <td>December 11, 2022</td>
+              <td>Best Ensemble Cast</td>
+              <td>Glass Onion: A Knives Out Mystery</td>
+              <td bgcolor="green">Won</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr />
+    </main>
+
+    <footer>
+      <h3>Do you wanna know more?</h3>
+      <h4>Subsribe to our newsletter</h4>
+      <form>
+        <label for="email">Enter your email</label>
+        <input type="email" name="email"/ required>
+        <button type="submit">Subscribe</button>
+
+        <label for="ad type"> Select ad type</label>
+        <select id="ad type">
+          <option value="rel-ad">Related advertisements</option>
+          <option value="ticket sales">Ticket Sales</option>
+          <option value="movie updates">Movie updates</option>
+        </select>
+      </form>
+
+      <p>(c) Liew 2022</p>
+    </footer>
+  </body>
+</html>
