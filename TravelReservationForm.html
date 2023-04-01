@@ -14,13 +14,18 @@
 
     <form>
       <lable for="customer's name">Full name*:</lable><br />
-      <input type="text" name="name" placeholder="FirstName LastName" />
+      <input
+        required
+        type="text"
+        name="name"
+        placeholder="FirstName LastName"
+      />
       <br />
       <label for="email">Email address*:</label><br />
-      <input type="text" name="email" />
+      <input required type="email" name="email" />
       <br />
       <label for="tour pacage">Select Tour Package:*</label><br />
-      <select id="type of tour pacakge">
+      <select required id="type of tour pacakge">
         <option>Goa</option>
         <option>Git</option>
         <option>Fit</option>
@@ -28,12 +33,12 @@
       </select>
       <br />
       <label for="Arrival date">Arrival date*:</label><br />
-      <input type="text" name="date" placeholder="m/d/y" />
+      <input required type="date" name="date" placeholder="m/d/y" />
       <br />
       <label for="pax">Number of persons*:</label><br />
-      <input type="number" name="pax" />
+      <input required type="number" name="pax" />
       <br />
-      <label for="What customer's would like to include in their tour"
+      <label required for="What customer's would like to include in their tour"
         >What would you like to avail?*</label
       ><br />
       <input type="checkbox" name="Boarding" />Boarding<br />
@@ -44,10 +49,10 @@
       <input type="text" name="Coupon code" />
       <br />
       <label for="terms">Terms and conditions*</label><br />
-      <input type="radio" name="agree" />
+      <input required type="radio" name="terms" />
       <label for="agree">I agree</label>
-      <input type="radio" name="Disagree" />
-      <label for="Disagree">I disagree</label> 
+      <input type="radio" name="terms" />
+      <label for="Disagree">I disagree</label>
       <br />
       <button type="submit">Complete reservation</button>
 
